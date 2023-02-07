@@ -1,0 +1,53 @@
+{
+  "name": "use-react-global-state",
+  "version": "2.0.3",
+  "description": "React global state gook",
+  "main": "build/bundle.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AibakButt/use-global-state.git"
+  },
+  "author": "Aibak Shahzad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AibakButt/use-global-state/issues"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "redux",
+    "global state",
+    "state",
+    "use global state"
+  ],
+  "homepage": "https://github.com/AibakButt/use-global-state#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@types/react": "^18.0.27",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-runtime": "^6.26.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "rollup": "^3.12.0",
+    "rollup-plugin-sass": "^1.12.17",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "files": ["dist"]
+}
